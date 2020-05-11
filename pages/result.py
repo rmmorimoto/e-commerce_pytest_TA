@@ -67,8 +67,10 @@ class MagaluResultPage:
 
     def product_not_found_message1(self):
         message1 = self.browser.find_element(*self.NO_RESULTS_FOUND_MESSAGE_1)
-        return message1.text()
+        message1.text()
+        return value
 
     def product_not_found_message1(self):
         message2 = self.browser.find_element(*self.NO_RESULTS_FOUND_MESSAGE_2)
-        return message2.text()
+        value = message2.text()
+        return value
