@@ -1,0 +1,20 @@
+"""
+Test Case scenarios for Search functionality
+"""
+
+User searches for a product, selects one of the results, add it to the cart and validate it
+- Load Magazine Luiza page
+- Search for "Cerveja Corona"
+- Search value should be "Cerveja Corona"
+- Search results should contain "Cerveja Corona""
+- Select a random result and click on it
+- Add product to the shopping cart
+- Validate that shopping cart page is open
+- Validate product in shopping cart
+
+User searches for a product that is not available
+- Load Magazine Luiza page
+- Search for "Cerveja Corona"
+- Search value should be "Cerveja Corona"
+- Search results should be empty
+- Validate product not found messages
